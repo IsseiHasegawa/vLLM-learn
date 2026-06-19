@@ -14,3 +14,7 @@ deactivate
 GitHub repo for vLLM: https://github.com/vllm-project/vllm#
 Website: https://docs.vllm.ai/en/latest/
 Website for vLLM by Red Hat: https://www.redhat.com/en/topics/ai/what-is-vllm
+
+## KV chaching
+- When AIs generate txet, they sometime compute same calculation. KV chaing is used to store same datas and reuse them efficiently. 
+Reference: https://huggingface.co/blog/not-lain/kv-caching
